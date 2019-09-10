@@ -16,7 +16,6 @@ const Numbers = () => {
   const [numbersState] = useState(numbers);
   console.log(useState(numbers));
 
-
   return (
     <div>
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
@@ -25,10 +24,8 @@ const Numbers = () => {
       
       <div className="buttons"> 
       {numbersState.map( (number, key) =>(
-        <NumberButton key={key} number={number} />
-
-      ))}
-          
+        <NumberButton number={number} key={key}/>
+      ))} 
       </div>
     </div>
   );
