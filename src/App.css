@@ -4,22 +4,67 @@
     max-width: 550px;
     border-radius: 15px;
     border: 2px solid grey;
-    padding-bottom: 25px;
+    padding: 2%;
+    /* border: 2px dashed pink; */
 }
+
 .App {
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    border: 2px dashed pink;
 }
 
+.top-row{
+    width: 100%;
+    display: flex;
+    border: 2px dashed green;
 
+}
 
+.bottom-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border: 2px dashed green;
+}
+
+.specials{
+    width: 100%;
+}
+
+.numbers{
+    width: 100%;
+}
+
+.right-box{
+    border: 2px dashed orange;
+}
+.left-box{
+    border: 2px dashed orange;
+}
+
+.top-left-box{
+    display: flex;
+    flex-direction: column;
+    border: 2px dashed purple;
+}
+
+.bottom-left-box{
+    
+}
+
+.operators{
+    display: flex;
+    flex-direction: column;
+    
+}
 
 .display {
-    margin-top: 25px;
+    margin: 15px;
     height: 100px;
     width: 100%;
-    max-width: 400px;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
@@ -27,8 +72,34 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    padding-right: 8%;
-    
     font-size: 5.0rem;
   }
+
+.operator-button {
+    color: white;
+    background-color: #237192;
+    border-radius: 50%;
+    font-size: 3rem;
+    
+}
+
+.numbers-button {
+    color: white;
+    background-color: #184379;
+    border-radius: 50%;
+    font-size: 3rem;
+    /* display:flex; */
+    
+    /* flex-wrap: wrap; */
+}
+
+
+.specials-button {
+    color: white;
+    background-color: #215C9E;
+    border-radius: 50%;
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
 
