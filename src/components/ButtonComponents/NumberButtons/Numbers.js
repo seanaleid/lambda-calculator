@@ -22,7 +22,7 @@ const Numbers = () => {
        component matching the name on the provided file. Pass
        it any props needed by the child component*/}
       
-      <div className="buttons"> 
+      <div className="numbers"> 
       {numbersState.map( (number, key) =>(
         <NumberButton number={number} key={key}/>
       ))} 
