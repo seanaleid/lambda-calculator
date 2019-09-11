@@ -1,15 +1,80 @@
 .container {
-    background-color: #c00025;
+    background-color: #A81D37;
     width: 100%;
     max-width: 550px;
     border-radius: 15px;
     border: 2px solid grey;
-    padding-bottom: 25px;
+    padding: 2%;
+    /* border: 2px dashed pink; */
 }
+
+.App {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 2px dashed pink; */
+}
+
+.top-row{
+    width: 100%;
+    display: flex;
+    /* border: 2px dashed green; */
+
+}
+
+.bottom-row{
+    width: 100%;
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* border: 2px dashed green; */
+}
+
+.specials{
+    width: 100%;
+    
+}
+
+.numbers{
+    width: 100%;
+}
+
+.right-box{
+    /* border: 2px dashed orange; */
+    display: flex;
+    justify-content: space-between;
+    margin-left: 22px;
+    margin-right: 52px;
+}
+.left-box{
+    /* border: 2px dashed orange; */
+    margin-left: 50px;
+    /* margin-right: */
+}
+
+.top-left-box{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* border: 2px dashed purple; */
+}
+
+.bottom-left-box{
+    width: 100%;
+    margin-left: 30px;
+    /* padding: 20%; */
+}
+
+.operators{
+    display: flex;
+    flex-direction: column;
+    
+}
+
 .display {
-    margin-top: 25px;
+    margin: 15px;
     height: 100px;
-    width: 450px;
+    width: 100%;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
@@ -17,6 +82,44 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    padding-right: 8%;
     font-size: 5.0rem;
   }
+
+.operator-button {
+    color: white;
+    background-color: #237192;
+    border-radius: 50%;
+    font-size: 3rem;
+    border: none;
+    padding: 10px;
+    margin: 15px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* justify-items: space-evenly; */
+    align-items: 
+    
+}
+
+.numbers-button {
+    color: white;
+    background-color: #184379;
+    border-radius: 70%;
+    font-size: 3rem;
+    border: none;
+    margin: 10px;
+    padding: 20px;
+}
+
+
+.specials-button {
+    color: white;
+    background-color: #215C9E;
+    border-radius: 50%;
+    font-size: 3rem;
+    padding: 10px;
+    /* justify-content: space-evenly; */
+    margin: 20px;
+    /* align-content: center; */
+    border: none;
+}
+
